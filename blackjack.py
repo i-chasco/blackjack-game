@@ -196,10 +196,10 @@ def tie(player_hand, dealer_hand):
 # Define function to prompt player to play again and act in consequence
 
 def play_again():
-    ''' Restart game if user imput == "y". Stop the program if answe == "n"'''
+    ''' Restart game if user imput == "y". Stop the program if answer == "n"'''
     while True:
         try:
-            decision = input("Thank you for playing, do you want to play again?(Y/N): )")
+            decision = input("Thank you for playing, do you want to play again?(Y/N): ")
             if decision.lower() == "y":
                 print("Let's go for another round!")
                 return True
